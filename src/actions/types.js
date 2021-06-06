@@ -1,0 +1,12 @@
+export const SIGN_IN = 'SIGN_IN'
+export const SIGN_OUT='SIGN_OUT'
+export const CREATE_STREAM = "CREATE_STREAM"
+export const FETCH_STREAMS = "FETCH_STREAMS"
+export const FETCH_STREAM = "FETCH_STREAM"
+export const DELETE_STREAM = "DELETE_STREAM"
+export const EDIT_STREAM = "EDIT_STREAM"
+export const SUC_SNACK = "SUC_SNACK"
+export const SIGN_UP = "SIGN_UP"
+export const PSIGN_IN = "PSIGN_IN"
+export const PSIGN_OUT = "PSIGN_OUT"
+export const CHK_TKN="CHK_TKN"

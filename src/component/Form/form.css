@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+.formDiv{
+    height: calc(100vh - 6.8493150684931505vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background: #FFF;
+    height: auto;
+    width:  52.68703898840885vh;
+    /* width: 25%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 4px;
+}
+.formHeader{
+    font-size:7.376185458377239vh;
+    font-family: American Captain, sans-serif;
+    letter-spacing: 2px;
+}
+.formLabel{
+
+    text-align: start;
+    font-size: 16px;
+    text-align: start;
+    width:  100%;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.formField{
+    height: 4.214963119072708vh;
+    width: 31.612223393045312vh;
+    outline: none;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    box-shadow:-1px 12px 21px -4px rgba(0,0,0,0.32);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.labFieldDiv{
+    padding: 0px 10px;
+}
+.userubmit_btn{
+    margin-top: 5px;
+    height: 45px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 4px 20px;
+    background-color: #212121;
+    color: #FFF;
+    transition: transform 0.3s ease-in,border-radius 0.4s ease-out;
+}
+.userubmit_btn:hover{
+    transform: scale(1.15);
+    border-radius: 20px 4px;
+    cursor: pointer;
+    outline: none;
+}
+.userubmit_btn::after{
+    content: '';
+}
+.linklogin{
+    text-decoration: none;
+    font-size: 1.4752370916754478vh;
+}
+.submitsignForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.googlesignupBtn{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: #DB4437;
+    color: #FFF;
+    transition: transform 0.3s ease-in, font-size 0.3s ease-out;
+    font-size: 16px;
+}
+.DropDown{
+    min-width: 12.644889357218124vh;
+    width:26.343519494204426vh;
+    margin: 10px !important;
+}
+.googlesignupBtn>i{
+    padding-left: 2.5px;
+
+}
+.googlesignupBtn:hover{
+    transform: scale(1.15);
+    font-size: 18px;
+}
+
+@media (max-width:500px) {
+    .form{
+        width: 52.68703898840885vh;
+    }
+    .submitsignForm {
+        margin-bottom: 10px;
+    }
+}
